@@ -1,0 +1,15 @@
+.navbar-brand {
+  height: 100px;
+}
+
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100px;
+}
+
+.navbar-toggle {
+  padding: 15px;
+  margin: 25px 15px 25px 0;
+}
+
