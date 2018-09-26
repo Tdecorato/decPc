@@ -105,49 +105,26 @@ h4 {
     background-color: #f4511e;
     color: #fff;
 }
-.navbar {
-/*     margin-bottom: 0;
- */    background-color: #000000;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-/*     line-height: 1.42857143 !important;
- */    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-    align-items: flex-end;
-}
 
 .navbar-brand {
-    display: flex;
-    align-items: center;
     height: 100px;
-}
-
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
-}
-
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
-}
-
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+  }
+  
+  .nav >li >a {
+    padding-top: 35px;
+    /*padding-bottom: 30px; */
     height: 100px;
-}
-.navbar-nav li a:hover, .navbar-nav li.active a {
+    vertical-align: middle;
+  }
+  
+  .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
     color: red !important;
-/*     background-color: #fff !important;
- */}
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
+  }
 
 footer .glyphicon {
     font-size: 20px;
