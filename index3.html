@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/custom2.css">
+  <link rel="icon" href="img/favicon/favicon2.fw.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon/favicon2.fw.png" type="image/x-icon" />
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -39,6 +41,62 @@
   </div>
 </nav> -->
 
+<h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" style="margin-top: 100px">
+      <div class="item active">
+        <img src="img/slide/Nuova cartella/acer.png" alt="Acer_Logo">
+      </div>
+      <div class="item">
+        <!-- <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4> -->
+        <img src="img/slide/Nuova cartella/samsung.png" alt="Samsung_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/asus.png" alt="Asus_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/brother.png" alt="Brother_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/canon.png" alt="Canon_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/dell.png" alt="Dell_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/epson.png" alt="Epson_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/intel.png" alt="Intel_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/lenovo.png" alt="Lenovo_Logo">
+      </div>
+      <div class="item">
+        <img src="img/slide/Nuova cartella/mediacom.png" alt="Mediacom_Logo">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -48,12 +106,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="myPage"><img src="img/logo2.png" alt="Logo">
+      <a class="navbar-brand" href="index3.html"><img src="img/logo2.png" alt="Logo">
       </a>
     </div>
     <div id="navbar3" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
+      <ul class="nav navbar-nav navbar-right active">
+        <li><a href="#about" data-toggle="collapse" >ABOUT</a></li>
         <li><a href="#services">PRODOTTI</a></li><strong></strong>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#pricing">PRICING</a></li>
@@ -69,18 +127,25 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About Company Page</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h2>About</h2>
+      <h4>L'azienda Decorato Computer è nata a Gennaio del 1997, come laboratorio di assistenza tecnica e riparazione hardware e software. <br>A Luglio del 1997 si amplia offrendo ai suoi clienti anche il 
+        servizio vendita; soddisfando così qualsiasi esigenza nel settore informatico.</h4>
+      <p>Oggi l'azienda offre: 
+        <br>-Assistenza e consulenza presso la sede;
+        <br>-Servizio di installazione e configurazione di reti;
+        <br>-Installazione e riparazione di PC, Notebook, Monitor, Stampanti, Fax, Fotocopiatori, Registratori di cassa e Bilance;
+        <br>-Vendita di accessori nuovi e usati.
     </div>
+    <!--BUONO DOCENTE SEZIONE-->
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
+      <!--<span class="glyphicon glyphicon-signal logo"> -->
+         <h2>Siamo abilitati alla carta del docente.</h2>
+         <button class="btn btn-default btn-lg"><a href="https://cartadeldocente.istruzione.it/#/" target="_blank"><img src="img/Nuova cartella/TASTO SPENDI QUI-01.png"></a></button>
     </div>
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
+<!--<div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -92,48 +157,122 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
   <h2>PRODOTTI</h2>
-  <h4>Cosa offriamo</h4>
   <br>
   <div class="row slideanim">
-    <div class="col-sm-4">
+    <div class="col-sm-2">
       <img src="img/notebook2.jpg" ></span>
-      <h4>Notebook</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h4>NOTEBOOK</h4>
     </div>
-    <div class="col-sm-4">
-      <img src="img/download.jpg"></span>
+    <div class="col-sm-2">
+      <img src="img/download.png"></span>
       <h4>CASE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
     </div>
-    <div class="col-sm-4">
-      <img src="img/monitor.PNG"></span>
+    <div class="col-sm-2">
+      <img src="img/monitor4.PNG"></span>
       <h4>MONITOR</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
     </div>
+    <div class="col-sm-2">
+        <img src="img/smartphone2.jpg" ></span>
+        <h4>SMARTPHONE</h4>
+      </div>
+      <div class="col-sm-2">
+        <img src="img/tablet.jpg" ></span>
+        <h4>TABLET</h4>
+      </div>
+      <div class="col-sm-2">
+          <img src="img/fotocamera.jpg" ></span>
+        <h4>FOTOCAMERE</h4>
+      </div>
   </div>
-  <br><br>
+  <br>
+  
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-2">
+      <img src="img/tastiera (2).jpg" ></span>
+      <h4>TASTIERE E MOUSE</h4>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-2">
+        <img src="img/pen drive.jpg" ></span>
+        <h4>PEN DRIVE</h4>
+      </div>
+    <div class="col-sm-2">
+      <img src="img/casse.jpg" ></span>
+      <h4>CASSE</h4>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div class="col-sm-2">
+        <img src="img/multifunzione.jpg" ></span>
+      <h4>STAMPANTI</h4>
     </div>
-  </div>
+    <div class="col-sm-2">
+        <img src="img/fotocopiatori.jpg" ></span>
+        <h4>FOTOCOPIATORI</h4>
+      </div>
+      <div class="col-sm-2">
+        <img src="img/rilevatore-banconote.jpg" ></span>
+        <h4>RILEVATORE DI BANCONOTE</h4>
+      </div>
+  </div><BR>
+
+    <div class="row slideanim">
+        <div class="col-sm-2">
+          <img src="img/gruppo-di-continuità.jpg" ></span>
+          <h4>GRUPPI DI CONTINUITA'</h4>
+        </div>
+        <div class="col-sm-2">
+            <img src="img/registratori di cassa.png" ></span>
+            <h4>REGISTRATORI DI CASSA</h4>
+          </div>
+        <div class="col-sm-2">
+          <img src="img/bilancia.jpg" ></span>
+          <h4>BILANCIE</h4>
+        </div>
+        <div class="col-sm-2">
+            <img src="img/calcolatrice.jpg" ></span>
+          <h4>CALCOLATRICI</h4>
+        </div>
+        <div class="col-sm-2">
+            <img src="img/router.png" ></span>
+            <h4>ROUTER</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/videosorveglianza.jpg" ></span>
+            <h4>VIDEOSORVEGLIANZA</h4>
+          </div>
+      </div><BR>
+
+        <div class="row slideanim">
+            <div class="col-sm-2">
+              <img src="img/cancelleria_home-150x150.png" ></span>
+              <h4>SMARTPHONE</h4>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/rotolo-registrat-cassa.jpg" ></span>
+                <h4>PEN DRIVE</h4>
+              </div>
+            <div class="col-sm-2">
+              <img src="img/cartucce2.PNG"></span>
+              <h4>CASSE</h4>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/sedie.jpg" ></span>
+              <h4>STAMPANTI</h4>
+            </div>
+            <div class="col-sm-2">
+                <img src="img/proiettore.png" ></span>
+                <h4>FOTOCOPIATORI</h4>
+              </div>
+              <div class="col-sm-2">
+                <img src="img/rilevatore-banconote.jpg" ></span>
+                <h4>RILEVATORE DI BANCONOTE</h4>
+              </div>
+          </div><BR>
+              
+    
 </div>
 
 <!-- Container (Portfolio Section) -->
@@ -164,39 +303,7 @@
     </div>
   </div><br>
   
-  <h2>What our customers say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
-      </div>
-      <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
-      </div>
-      <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+  
 
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid">
