@@ -19,7 +19,9 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<!-- <nav class="navbar navbar-default">
+
+<!--Navbar-->
+<nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,16 +34,18 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">PRODOTTI</a></li><strong></strong>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#services">PRODOTTI</a></li>
         <li><a href="#contact">CONTATTI</a></li>
       </ul>
     </div>
+    <div>
+            <a class="btn btn-social-icon  btn-facebook">
+                  <span class = "fa fa-facebook">F</span>
+            </a>
+      </div>
   </div>
-</nav> -->
+</nav>
 
-<h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -112,9 +116,9 @@
     <div id="navbar3" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right active">
         <li><a href="#about" data-toggle="collapse" >ABOUT</a></li>
-        <li><a href="#services">PRODOTTI</a></li><strong></strong>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#services">PRODOTTI</a></li>
+        <!--<li><a href="#portfolio">PORTFOLIO</a></li>-->
+        <!--<li><a href="#pricing">PRICING</a></li>-->
         <li><a href="#contact">CONTATTI</a></li>
       </ul>
     </div>
@@ -266,16 +270,10 @@
                 <img src="img/CUFFIE.png" ></span>
                 <h4>CUFFIE/AURICOLARI</h4>
               </div>
-              <div class="col-sm-2">
-                <img src="img/rilevatore-banconote.jpg" ></span>
-                <h4>RILEVATORE DI BANCONOTE</h4>
-              </div>
-          </div><BR>
-              
-    
+          </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+<!-- Container (Portfolio Section)
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2><br>
   <h4>What we have created</h4>
@@ -301,11 +299,11 @@
         <p>Yes, San Fran is ours</p>
       </div>
     </div>
-  </div><br>
+  </div><br> -->
   
   
 
-<!-- Container (Pricing Section) -->
+<!-- Container (Pricing Section) 
 <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>Pricing</h2>
@@ -370,17 +368,18 @@
       </div>      
     </div>    
   </div>
-</div>
+</div>-->
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+<div id="contact" class="container-fluid text-center">
+  <h2>CONTATTI</h2>
   <div class="row">
-    <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    <div class="col-sm-4">
+      <p>Contatti</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Canosa di Puglia, BT</p>
+      <p><span class="glyphicon glyphicon-phone"><a href="tel:+393683904351">+39 3683904351</a></span></p>
+      <p><span class="glyphicon glyphicon-phone-alt"><a href="tel:+0883612035"> 0883 612035</a></span></p>
+      <p><span class="glyphicon glyphicon-envelope"><a href="mailto:decoratodonato@libero.it">decoratodonato@libero.it</a></span></p>
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
@@ -391,10 +390,10 @@
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Descrizione" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit">Invia</button>
         </div>
       </div>
     </div>
