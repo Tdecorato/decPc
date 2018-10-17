@@ -24,7 +24,7 @@ h4 {
     font-family: Montserrat, sans-serif;
 }
 .container-fluid {
-    padding: 150px 50px;
+    padding: 150px 50px 400px;
 }
 .bg-grey {
     background-color: #f6f6f6;
@@ -80,6 +80,7 @@ h4 {
     border: 1px solid #f4511e;
     background-color: #fff !important;
     color: #f4511e;
+    cursor: hand;
 }
 .panel-heading {
     color: #fff !important;
@@ -125,6 +126,7 @@ h4 {
   
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: red !important;
+    cursor: hand;
   }
     
 footer .glyphicon {
@@ -140,11 +142,11 @@ footer .glyphicon {
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
-a:link, a:visited { 
+a:link, a:visited, a:hover { 
     color:#303030;
     text-decoration:none;
-    cursor:auto;
     font-family: sans-serif;
+    cursor:hand;
 }
 
 @keyframes slide {
