@@ -383,48 +383,53 @@
       <p><span class="glyphicon glyphicon-phone-alt"><a href="tel:+0883612035"> 0883 612035</a></span></p>
       <p><span class="glyphicon glyphicon-envelope"><a href="mailto:decoratodonato@libero.it"> decoratodonato@libero.it</a></span></p>
     </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    <!--maps-->
+    <div class="col-sm-7">
+        <div id="googleMap" style="height:400px;width:100%;">
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Descrizione" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Invia</button>
-        </div>
-      </div>
+        <script>
+          function myMap() {
+            var myCenter = new google.maps.LatLng(41.2207861,16.0622889);
+            var mapProp = {center:myCenter, zoom:20, scrollwheel:true, draggable:true, mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter,
+              animation:google.maps.Animation.BOUNCE});
+              marker.setMap(map);
+              }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjEyULRFu_jjCD0yIz_y1igrHni_-AlKY&callback=myMap">
+        </script>
+  </div>
+</div><br><br>
+
+
+<div class="col-sm-4"></div>
+<div class="col-sm-4 slideanim">
+  <div class="row">
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    </div>
+    <div class="col-sm-6 form-group">
+      <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+    </div>
+  </div>
+  <textarea class="form-control" id="comments" name="comments" placeholder="Descrizione" rows="5"></textarea><br>
+  <div class="row">
+    <div class="col-sm-12 form-group">
+      <button class="btn btn-default pull-right" type="submit">Invia</button>
     </div>
   </div>
 </div>
-
-<!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
+<div class="col-sm-4"></div>
+<br><br>
+<div class="col-sm-12">
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+  <p>©2018 Decorato Computer. All rights reserved.</p>
 </footer>
+</div>
 
 <script>
 $(document).ready(function(){
